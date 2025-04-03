@@ -268,7 +268,7 @@ async Task AddMessage(string message, string username, string token)
     await cmd.ExecuteNonQueryAsync();
 }
 
-//Gets messages
+//Gets messages from chat
 async Task<List<Messages>> GetMessages(string token)
 {
     var messages = new List<Messages>();
